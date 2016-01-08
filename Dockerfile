@@ -7,5 +7,5 @@ COPY . /go/src/github.com/jehiah/sortdb
 RUN go-wrapper download
 RUN go-wrapper install
 
-# App is in /go/bin/app
+# App is in /go/bin/sortdb
 
